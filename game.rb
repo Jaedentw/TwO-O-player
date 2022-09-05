@@ -37,7 +37,7 @@ class Game
 
         if(@p1.lives == 0 || @p2.lives == 0)
         switch()
-        puts message + "#{@turn} you win!\n==== GAME OVER ====\n"
+        puts message + "\n#{@turn} you win!\n==== GAME OVER ====\n"
         else
           puts message
         end
